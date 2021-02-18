@@ -146,7 +146,7 @@ footer {
   position: relative;
   width: 400px;
   min-width: 200px;
-  height: 360px;
+  height: 300px;
   min-height: 300px;
   margin-left: auto;
   margin-right: auto;
@@ -200,7 +200,7 @@ footer {
     padding-left: 0px;
     padding-right: 0px;
     width: 600px;
-    height: 200%;
+    height: 90%;
   }
   .info .main {
     margin-bottom: auto;
