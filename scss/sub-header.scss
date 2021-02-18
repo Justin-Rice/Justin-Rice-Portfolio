@@ -1,0 +1,16 @@
+.sub-header {
+  width: 30%;
+  height: 70px;
+  position: relative;
+  top: 150px;
+  margin: 0 auto;
+  text-align: center;
+
+  h3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: $smoke-white;
+    font-size: 30px;
+    font-weight: normal;
+  }
+}

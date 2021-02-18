@@ -1,0 +1,50 @@
+nav {
+  // background-color: $red;
+  border-bottom: solid;
+  color: $red;
+
+  height: 80px;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  min-width: 800px;
+  justify-content: space-between;
+  transform: translateX(33%);
+  position: fixed;
+  background-color: $dark-grey;
+  z-index: 99;
+
+  .links {
+    height: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
+    min-width: 250px;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      text-decoration: none;
+      color: $smoke-white;
+      width: 40%;
+      text-align: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 28px;
+      padding-right: 20px;
+      padding-left: 20px;
+      position: relative;
+      top: 50%;
+    }
+  }
+  h1 {
+    min-width: 400px;
+    line-height: 75px;
+    position: relative;
+    margin-left: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: $smoke-white;
+    font-size: 50px;
+  }
+}
