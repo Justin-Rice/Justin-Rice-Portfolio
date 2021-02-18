@@ -6,11 +6,12 @@ nav {
   height: 80px;
   width: 60%;
   margin: 0 auto;
+
   display: flex;
   min-width: 800px;
   justify-content: space-between;
-  transform: translateX(33%);
   position: fixed;
+  left: 19%;
   background-color: $dark-grey;
   z-index: 99;
 
@@ -18,7 +19,7 @@ nav {
     height: 50px;
     margin-right: 40px;
     margin-left: 40px;
-    min-width: 250px;
+    min-width: 240px;
     width: 25%;
     display: flex;
     justify-content: space-around;
@@ -35,6 +36,7 @@ nav {
       padding-left: 20px;
       position: relative;
       top: 50%;
+      transition: 0.3s;
     }
   }
   h1 {
@@ -46,5 +48,31 @@ nav {
       sans-serif;
     color: $smoke-white;
     font-size: 50px;
+  }
+  a:hover {
+    color: $light-grey;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  nav {
+    width: 500px;
+    justify-content: center;
+    display: inline;
+    left: 30%;
+    border-bottom: none;
+    text-align: center;
+    margin: 0 auto;
+    h1 {
+      width: 40%;
+      display: none;
+    }
+
+    .links {
+      justify-content: center;
+      margin: auto;
+      position: relative;
+      right: 33%;
+    }
   }
 }
