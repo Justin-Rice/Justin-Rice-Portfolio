@@ -10,8 +10,7 @@ nav {
   display: flex;
   min-width: 800px;
   justify-content: space-between;
-  position: fixed;
-  left: 19%;
+  position: relative;
   background-color: $dark-grey;
   z-index: 99;
 
@@ -54,25 +53,25 @@ nav {
   }
 }
 
-@media only screen and (max-width: 950px) {
-  nav {
-    width: 500px;
-    justify-content: center;
-    display: inline;
-    left: 30%;
-    border-bottom: none;
-    text-align: center;
-    margin: 0 auto;
-    h1 {
-      width: 40%;
-      display: none;
-    }
+// @media only screen and (max-width: 950px) {
+//   nav {
+//     width: 500px;
+//     justify-content: center;
+//     display: inline;
+//     left: 30%;
+//     border-bottom: none;
+//     text-align: center;
+//     margin: 0 auto;
+//     h1 {
+//       width: 40%;
+//       display: none;
+//     }
 
-    .links {
-      justify-content: center;
-      margin: auto;
-      position: relative;
-      right: 33%;
-    }
-  }
-}
+//     .links {
+//       justify-content: center;
+//       margin: auto;
+//       position: relative;
+//       right: 33%;
+//     }
+//   }
+// }

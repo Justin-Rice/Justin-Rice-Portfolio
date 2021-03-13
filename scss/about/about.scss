@@ -1,0 +1,44 @@
+.about {
+  height: 1000px;
+  width: 900px;
+  //  background-color: lightcoral;
+  margin: 0 auto;
+
+  .about-info {
+    width: 900px;
+    height: 180px;
+    // background-color: orangered;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    h3 {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: $smoke-white;
+      font-size: 30px;
+      font-weight: normal;
+      border-bottom: solid;
+      border-width: 3px;
+      width: 150px;
+      border-bottom-color: $red;
+    }
+    h3.resume {
+      justify-content: center;
+    }
+
+    p {
+      width: 550px;
+      height: 130px;
+      //  background-color: lightblue;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: $smoke-white;
+      font-size: 20px;
+      font-weight: normal;
+      text-align: left;
+      position: relative;
+      left: 300px;
+      letter-spacing: 1px;
+    }
+  }
+}
